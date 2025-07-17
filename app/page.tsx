@@ -1,11 +1,11 @@
 import Image from "next/image";
 import styles from './home.module.css';
 // const imagePath = ''
-const crowdImgSrc = `/homepage_gallery/b-crowd@2x.webp`;
+const crowdImgSrc = `/homepage_gallery/grazing-cow.jpg`;
 const coolBoxSrc = "/homepage_gallery/sd-g-thats-a-cool-box@2x.webp";
-const microphoneSrc = "/homepage_gallery/b-microphone@2x.webp";
+const microphoneSrc = "/homepage_gallery/girl-holding-bean.webp";
 const decalSrc = "/homepage_gallery/b-decal@2x.webp";
-const hilariousSrc = "/homepage_gallery/b-hilarious@2x.webp";
+const hilariousSrc = "/homepage_gallery/nepalese_kids_laughing.jpg";
 
 const donateTodayButtonStyle = "bg-yellow-400 rounded-3xl lg:max-w-max border-yellow-400 flex flex-col items-center border-4 px-16 py-3 font-bold";
 
@@ -16,8 +16,9 @@ function HeroStatsLargeScreen() {
             <div className="col-span-6 hidden lg:flex">
                 <div className="flex-col-stack-3 mx-auto w-80 ">
                     <h1 data-testid="hero-header " className="text-6xl font-bold my-3">Make Business a Force For Good</h1>
-                    <p className="my-4">B Lab is the nonprofit network transforming the global economy to benefit all people, communities,
-                        and the planet.</p>
+                    <p className="my-4">
+                        Cleaned Certification is the trusted authority recognizing businesses that prioritize people, communities, and the planet.
+                    </p>
                     <p className="font-bold my-4">{"We won't stop until all business is a force for good."}</p>
                     <a type="button"
                         className={donateTodayButtonStyle}
@@ -45,7 +46,7 @@ function HeroStatsLargeScreen() {
 
                         <div
                             className="flex flex-col items-center py-8 text-white"
-                            style={{ backgroundColor: "#076e95" }}
+                            style={{ backgroundColor: "#008787" }}
                         >
                             <div className="text-4xl font-bold">1,002,035</div>
                             <div className="text-2xl text-center">Workers</div>
@@ -85,7 +86,7 @@ function HeroStatsLargeScreen() {
                         <div
                             className="flex flex-col items-center py-8 text-white"
                             style={{
-                                backgroundColor: "#076e95",
+                                backgroundColor: "#008787",
                             }}>
                             <div className="text-4xl font-bold">10,000</div>
                             <div className="text-2xl text-center">Companies</div>
@@ -93,7 +94,7 @@ function HeroStatsLargeScreen() {
                         <div
                             className="flex flex-col items-center py-8 text-white"
                             style={{
-                                backgroundColor: "#076e95",
+                                backgroundColor: "#008787",
                             }}>
                             <div className="text-4xl font-bold">160</div>
                             <div className="text-2xl text-center">Industries</div>
@@ -116,7 +117,7 @@ function HeroStatsLargeScreen() {
                         <div
                             className="flex flex-col items-center py-8 text-white"
                             style={{
-                                backgroundColor: "#076e95",
+                                backgroundColor: "#008787",
                             }}>
                             <div className="text-4xl font-bold">103</div>
                             <div className="text-2xl text-center">Countries</div>
@@ -161,7 +162,7 @@ function HeroStats() {
                     <div
                         className="flex flex-col items-center py-8 text-white"
                         style={{
-                            backgroundColor: "#076e95",
+                            backgroundColor: "#008787",
                         }}>
                         <div className="text-4xl font-bold">1,002,100</div>
                         <div className="text-2xl text-center">Workers</div>
@@ -169,7 +170,7 @@ function HeroStats() {
                     <div
                         className="flex flex-col items-center py-8 text-white"
                         style={{
-                            backgroundColor: "#076e95",
+                            backgroundColor: "#008787",
                         }}>
                         <div className="text-4xl font-bold">10,004</div>
                         <div className="text-2xl text-center">Companies</div>
@@ -187,7 +188,7 @@ function HeroStats() {
                     <div
                         className="flex flex-col items-center py-8 text-white"
                         style={{
-                            backgroundColor: "#076e95",
+                            backgroundColor: "#008787",
                         }}>
                         <div className="text-4xl font-bold">103</div>
                         <div className="text-2xl text-center">Countries</div>
@@ -195,7 +196,7 @@ function HeroStats() {
                     <div
                         className="flex flex-col items-center py-8 text-white"
                         style={{
-                            backgroundColor: "#076e95",
+                            backgroundColor: "#008787",
                         }}>
                         <div className="text-4xl font-bold">160</div>
                         <div className="text-2xl text-center">Industries</div>
@@ -237,7 +238,7 @@ function HeroStats() {
                     <div
                         className="flex flex-col items-center py-8 text-white"
                         style={{
-                            backgroundColor: "#076e95",
+                            backgroundColor: "#008787",
                         }}>
                         <div className="text-4xl font-bold">1,002,100</div>
                         <div className="text-2xl text-center">Workers</div>
@@ -279,7 +280,7 @@ function HeroStats() {
                     <div
                         className="flex flex-col items-center py-8 text-white"
                         style={{
-                            backgroundColor: "#076e95",
+                            backgroundColor: "#008787",
                         }}>
                         <div className="text-4xl font-bold">10,004</div>
                         <div className="text-2xl text-center">Companies</div>
@@ -287,7 +288,7 @@ function HeroStats() {
                     <div
                         className="flex flex-col items-center py-8 text-white"
                         style={{
-                            backgroundColor: "#076e95",
+                            backgroundColor: "#008787",
                         }}>
                         <div className="text-4xl font-bold">160</div>
                         <div className="text-2xl text-center">Industries</div>
@@ -309,7 +310,7 @@ function HeroStats() {
                     <div
                         className="flex flex-col items-center py-8 text-white"
                         style={{
-                            backgroundColor: "#076e95",
+                            backgroundColor: "#008787",
                         }}>
                         <div className="text-4xl font-bold">103</div>
                         <div className="text-2xl text-center">Countries</div>
@@ -335,7 +336,7 @@ function HeroStats() {
     return (
         <div className="grid grid-cols-6 gap-8 lg:grid-cols-12 col-span-full lg:hidden">
             <h1 className="col-span-full text-center" data-testid="hero-header">
-                Make Business a Force For Good
+                Make Ethics the Standard in Business
             </h1>
             <div className="flex-col-stack-2 col-span-full">
                 <SmallStatsGallery />
@@ -344,8 +345,8 @@ function HeroStats() {
                 <div className="my-10">
 
                     <p className="text-center my-5">
-                        B Lab is the nonprofit network transforming the global economy to benefit
-                        all people, communities, and the planet.
+                        {`Cleaned Certification is the trusted authority recognizing businesses that prioritize people, communities, and the planet.
+                        We won't stop until every business meets the standard for doing good.`}
                     </p>
                     <p className="text-center font-bold my-5">
                         {"We won't stop until all business is a force for good."}
@@ -374,7 +375,7 @@ export default function Home() {
                     <HeroStatsLargeScreen />
                     <HeroStats />
                     <div className="col-span-full flex flex-col items-center">
-                            <h2 className="text-3xl font-bold py-10">Learn more about our mission</h2>
+                        <h2 className="text-3xl font-bold py-10">Learn more about our mission</h2>
                         <div className="m-auto h-full w-4/5">
                             <div className="embed-video">
                                 <iframe
