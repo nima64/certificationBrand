@@ -60,7 +60,7 @@ const frameworks = [
     },
 ]
 
-export function CommandDemo() {
+function CommandDemo() {
     return (
         <Command className="rounded-lg shadow md:min-w-[450px] h-[76px] w-full max-w-[824px] flex-row items-center justify-between gap-4 rounded-[40px] bg-white pl-6 pr-2">
             <CommandInput placeholder="Type a command or search..." />
@@ -88,7 +88,7 @@ function Combobox(props: any) {
                     className="w-[200px] justify-between"
                 >
                     {value
-                        ? props?.frameworks.find((framework) => framework.value === value)?.label
+                        ? props?.frameworks.find((framework:any) => framework.value === value)?.label
                         : props.children}
                     <ChevronsUpDown className="opacity-50" />
                 </Button>
@@ -99,7 +99,7 @@ function Combobox(props: any) {
                     <CommandList>
                         <CommandEmpty>No framework found.</CommandEmpty>
                         <CommandGroup>
-                            {props?.frameworks.map((framework) => (
+                            {props?.frameworks.map((framework:any) => (
                                 <CommandItem
                                     key={framework.value}
                                     value={framework.value}
@@ -197,7 +197,7 @@ function SortbyCombobox(props: any) {
                     <CommandList>
                         <CommandEmpty>No framework found.</CommandEmpty>
                         <CommandGroup>
-                            {frameworks.map((framework) => (
+                            {frameworks.map((framework:any) => (
                                 <CommandItem
                                     key={framework.value}
                                     value={framework.value}
